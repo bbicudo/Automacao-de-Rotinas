@@ -1,0 +1,6 @@
+<Configuration Product="Enterprise">
+
+<Display Level="none" CompletionNotice="no" /> 
+<Setting Id="SETUP_REBOOT" Value="NEVER" />
+
+</Configuration>
