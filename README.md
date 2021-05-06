@@ -28,4 +28,4 @@ UninstallSoftware.bat
 
 HomeOffice
 -----------------
-- Instala o Winsat e habilita o netDom em máquinas com o Windows 7. Remove a máquina do domínio, cria um usuário local e instala softwares necessários para a execução de trabalhos em home office. A aplicação foi criada para automatizar o processo e mitigar o impacto causado pela demanda de teletrabalho no período mais crítico da Pandemia do COVID-19.
+- Instala o Winsat e habilita o netDom em máquinas com o Windows 7. Remove a máquina do domínio, cria um usuário local e instala softwares necessários para a execução de trabalhos em home office. A aplicação foi criada para automatizar o processo e mitigar o impacto causado pela demanda de teletrabalho no período mais crítico da Pandemia do COVID-19. (Download do zip com todos os pacotes na página de releases)
