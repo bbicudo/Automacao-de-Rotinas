@@ -1,5 +1,5 @@
 # Prefeitura_Scripts
-Scripts desenvolvidos para automação de processos via GPO.
+Scripts, acplicações e pacotes de software desenvolvidos para automação de processos via GPO
 
 
 Office Uninstall 
