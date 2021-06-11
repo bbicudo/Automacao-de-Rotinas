@@ -2,6 +2,7 @@
 Scripts, acplicações e pacotes de software desenvolvidos para automação de processos via GPO
 -----------------
 ![image](https://img.shields.io/badge/VBScript-VBS-blue)
+![image](https://img.shields.io/badge/Batchfile-bat-blue)
 
 -----------------
 Office Uninstall 
