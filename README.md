@@ -1,7 +1,9 @@
 # Prefeitura_Scripts 📜
 Scripts, acplicações e pacotes de software desenvolvidos para automação de processos via GPO
+-----------------
+![image](https://img.shields.io/badge/VBScript-VBS-blue)
 
-
+-----------------
 Office Uninstall 
 -----------------
 - Realiza desinstalação de diversas versões antigas do Microsoft Office, baseado em arquivos de configuração XML
