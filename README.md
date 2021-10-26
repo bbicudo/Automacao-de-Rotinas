@@ -1,4 +1,4 @@
-# Prefeitura_Scripts 📜
+# Scripts 📜
 Scripts, acplicações e pacotes de software desenvolvidos para automação de processos via GPO
 -----------------
 ![image](https://img.shields.io/badge/VBScript-VBS-blue)
