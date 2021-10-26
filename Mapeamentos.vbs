@@ -4,20 +4,20 @@
 '////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 '################################################################################################################################################
-'Este script cria os mapeamentos baseado nos grupos onde o usu·rio est· incluÌdo,
+'Este script cria os mapeamentos baseado nos grupos onde o usu√°rio est√° inclu√≠do,
 'visando esconder o nome do caminho do servidor nos compartilhamentos.
 
-'ExecuÁ„o: 
-'A estrutura de pastas deve estar criada e com as devidas permissıes setadas. O usu·rio deve estar incluso no grupo ao qual ser· mapeada a pasta
-'Mapeia as pastas no login, tornando o mapeamento um processo descentralizado, tendo o usu·rio acesso ‡ pasta de seu setor em qualquer 
-'m·quina do parque operacional.
+'Execu√ß√£o: 
+'A estrutura de pastas deve estar criada e com as devidas permiss√µes setadas. O usu√°rio deve estar incluso no grupo ao qual ser√° mapeada a pasta
+'Mapeia as pastas no login, tornando o mapeamento um processo descentralizado, tendo o usu√°rio acesso √† pasta de seu setor em qualquer 
+'m√°quina do parque operacional.
 
-'Os mapeamentos nas letras S e P s„o mapeamentos presentes para todos os usu·rios no domÌnio
-'Os mapeamentos na letra Q s„o mapeamentso presentes para usu·rios em grupos esepciais que tem acesso ‡ pastas em outro servidor
+'Os mapeamentos nas letras S e P s√£o mapeamentos presentes para todos os usu√°rios no dom√≠nio
+'Os mapeamentos na letra Q s√£o mapeamentos presentes para usu√°rios em grupos especiais ou que tem acesso √† pastas em outro servidor
 
 '################################################################################################################################################
 
-'Continua a execuÁ„o do Script mesmo que ocorram falhas
+'Continua a execu√ß√£o do Script mesmo que ocorram falhas
 On Error Resume Next
 
 'Referenciando (instanciando) objetos	
@@ -36,10 +36,10 @@ objNetwork.RemoveNetworkDrive "T:", True, True
 objNetwork.RemoveNetworkDrive "U:", True, True
 objNetwork.RemoveNetworkDrive "V:", True, True
 
-	'Remove o mapeamento anterior por seguranÁa
+	'Remove o mapeamento anterior por seguran√ßa
 	objNetwork.RemoveNetworkDrive "S:", True, True
 
-	'Cria o mapemento na letra S:, referente ‡ pasta shareName$ no servidor strServer
+	'Cria o mapemento na letra S:, referente √† pasta shareName$ no servidor strServer
 	objNetwork.MapNetworkDrive "S:", strServer+"shareName$"
 
 	'Renomeia o compartilhamento, tornando-o simplesmente Nome e removendo o caminho do servidor
@@ -53,10 +53,10 @@ objNetwork.RemoveNetworkDrive "V:", True, True
 	For Each objGroup In objUser.Groups
 		'WScript.Echo objGroup.Name 
    	 
-	'Seleciona o grupo do usu·rio
+	'Seleciona o grupo do usu√°rio
 	Select Case objGroup.Name
 				 
-		'Se o usu·rio estiver no grupo, inicia os mapeamentos.		
+		'Se o usu√°rio estiver no grupo, inicia os mapeamentos.		
 		'#################### Q: ##################################################
 		Case "Grupo1" 
 			objNetwork.RemoveNetworkDrive "Q:", True, True
